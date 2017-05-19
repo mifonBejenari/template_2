@@ -1,0 +1,81 @@
+.header_photo {
+  overflow: hidden;
+  line-height: 0.74;
+  position: relative;
+}
+.header_photo_title {
+  padding: 132px 56px 144px;
+}
+
+.header_bar {
+  background: #252222;
+  position: relative;
+}
+.logo_home {
+  float: left;
+  display: block;
+  font-size: 0;
+  margin: 33px 27px 32px;
+}
+.socials_header {
+  float: right;
+  margin: 37px 0 0 76px;
+  & li {
+    float: left;
+    margin-left: 14px;
+  }
+  & li:first-of-type {
+    margin-left: 0;
+  }
+  & a {
+    font-family: 'icomoon';
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #252222;
+    background: #fff;
+    display: block;
+    border-radius: 50%;
+    padding: 8px;
+    &:hover {
+      background: #65ba99;
+    }
+  }
+  & a[title="twitter"]:before {
+    content: "\e900";
+  }
+  & a[title="flickr"]:before {
+    content: "\e903";
+  }
+  & a[title="facebook"]:before {
+    content: "\e902";
+  }
+  & a[title="linkedin"]:before {
+    content: "\e901";
+  }
+}
+
+.menu {
+  float: right;
+  margin-top: 46px;
+  & li {
+    float: left;
+    margin-right: 29px;
+  }
+  & li:last-of-type {
+    margin-right: 0;
+  }
+  & a {
+    font-size: 1.8rem;
+    color: #fff5f5;
+  }
+  & a:hover {
+    color: #65ba99;
+    border-bottom: 1px solid #65ba99;
+    padding-bottom: 10px;
+  }
+  & a:active {
+    color: #65ba99;
+    border-bottom: 1px solid #65ba99;
+    padding-bottom: 10px;
+  }
+}

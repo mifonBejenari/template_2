@@ -1,0 +1,125 @@
+.sponsor_wraper {
+  background: #bebebe;
+  text-align: center;
+  padding: 48px 0;
+  & img {
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 3%;
+  }
+}
+
+.bio_wraper {
+  background: #e2534b;
+  color: #252222;
+  & h2 {
+    text-align: center;
+    padding: 49px 0 47px;
+  }
+}
+
+.bio_left_wraper {
+  float: left;
+  width: 50%;
+  padding-right: 12px; 
+  text-align: center;
+}
+.avatar_name {
+  color: #fff;
+  margin-bottom: 29px;
+}
+.avatar_bio {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+  display: inline-block;
+  & img {
+    position: relative;
+    display: block;
+    @extend %translate_50_50;
+  }
+}
+.socials_footer {
+  margin: 55px 0 87px;
+  & li {
+    display: inline-block;
+    margin-left: 14px;
+  }
+  & li:first-of-type {
+    margin-left: 0;
+  }
+  & a {
+    font-family: 'icomoon';
+    font-size: 1.8rem;
+    line-height: 1;
+    color: #252222;
+    background: #fff;
+    border-radius: 50%;
+    padding: 8px;
+    &:hover {
+      background: #65ba99;
+    }
+  }
+  & a[title="twitter"]:before {
+    content: "\e900";
+  }
+  & a[title="flickr"]:before {
+    content: "\e903";
+  }
+  & a[title="facebook"]:before {
+    content: "\e902";
+  }
+  & a[title="linkedin"]:before {
+    content: "\e901";
+  }
+}
+
+.bio_right_wraper {
+  float: right;
+  width: 50%;
+  padding: 8px 0 0 13px;
+}
+.title_description_bio {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 1;
+  padding-bottom: 15px;
+}
+.bio_description {
+  font-family: 'OpenSans';
+  font-size: 1.4rem;
+  color: #fff;
+  padding-bottom: 12px;
+  line-height: 1.8rem;
+  letter-spacing: 0.023rem;
+}
+
+.contact_wraper {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.contact_title {
+  margin: 54px 0 57px;
+  color: #000;
+}
+.contact_e-mail {
+  font-size: 6rem;
+  padding: 17px 126px 13px;
+  border: 5px solid #fff;
+  display: inline-block;
+  margin: 16px 0 24px;
+  letter-spacing: 0.4rem;
+}
+.contact_adress {
+  font-size: 3rem;
+}
+.contact_copyright {
+  font-family: 'OpenSans-Bold';
+  font-size: 1.4rem;
+  margin: 106px 0 35px;
+}

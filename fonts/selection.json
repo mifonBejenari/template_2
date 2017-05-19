@@ -1,0 +1,78 @@
+{
+  "selection": [
+    {
+      "order": 1,
+      "prevSize": 28,
+      "name": "tags"
+    }
+  ],
+  "metadata": {
+    "name": "Font Awesome (subset)",
+    "url": "https://github.com/FortAwesome/Font-Awesome",
+    "designer": "Dave Gandy",
+    "designerURL": "https://github.com/davegandy",
+    "license": "Custom",
+    "licenseURL": "https://github.com/FortAwesome/Font-Awesome#license",
+    "iconsHash": 1846815916,
+    "importSize": {
+      "width": 30,
+      "height": 28
+    }
+  },
+  "height": 1024,
+  "prevSize": 28,
+  "icons": [
+    {
+      "paths": [
+        "M256 256c0-40.571-32.571-73.143-73.143-73.143s-73.143 32.571-73.143 73.143 32.571 73.143 73.143 73.143 73.143-32.571 73.143-73.143zM865.714 585.143c0 19.429-8 38.286-21.143 51.429l-280.571 281.143c-13.714 13.143-32.571 21.143-52 21.143s-38.286-8-51.429-21.143l-408.571-409.143c-29.143-28.571-52-84-52-124.571v-237.714c0-40 33.143-73.143 73.143-73.143h237.714c40.571 0 96 22.857 125.143 52l408.571 408c13.143 13.714 21.143 32.571 21.143 52zM1085.143 585.143c0 19.429-8 38.286-21.143 51.429l-280.571 281.143c-13.714 13.143-32.571 21.143-52 21.143-29.714 0-44.571-13.714-64-33.714l268.571-268.571c13.143-13.143 21.143-32 21.143-51.429s-8-38.286-21.143-52l-408.571-408c-29.143-29.143-84.571-52-125.143-52h128c40.571 0 96 22.857 125.143 52l408.571 408c13.143 13.714 21.143 32.571 21.143 52z"
+      ],
+      "width": 1085,
+      "tags": [
+        "tags"
+      ],
+      "grid": 14,
+      "defaultCode": 127775
+    }
+  ],
+  "colorThemes": [],
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "showSelector": false,
+      "selector": "",
+      "showMetrics": false,
+      "showMetadata": false,
+      "showVersion": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "height": 32,
+      "columns": 16,
+      "margin": 16
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16
+  },
+  "IcoMoonType": "icon-set"
+}
