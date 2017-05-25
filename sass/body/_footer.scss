@@ -2,12 +2,15 @@
   background: #bebebe;
   text-align: center;
   padding: 48px 0;
-  & img {
-    text-align: center;
-    vertical-align: middle;
-    display: inline-block;
-    margin: 3%;
+  & .align_sponsor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
+  & img {
+
+  }
+
 }
 
 .bio_wraper {

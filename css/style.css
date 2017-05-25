@@ -244,25 +244,24 @@ embed {
   padding: 48px 0;
 }
 /* line 5, ../sass/body/_footer.scss */
-.sponsor_wraper img {
-  text-align: center;
-  vertical-align: middle;
-  display: inline-block;
-  margin: 3%;
+.sponsor_wraper .align_sponsor {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-/* line 13, ../sass/body/_footer.scss */
+/* line 16, ../sass/body/_footer.scss */
 .bio_wraper {
   background: #e2534b;
   color: #252222;
 }
-/* line 16, ../sass/body/_footer.scss */
+/* line 19, ../sass/body/_footer.scss */
 .bio_wraper h2 {
   text-align: center;
   padding: 49px 0 47px;
 }
 
-/* line 22, ../sass/body/_footer.scss */
+/* line 25, ../sass/body/_footer.scss */
 .bio_left_wraper {
   float: left;
   width: 50%;
@@ -270,13 +269,13 @@ embed {
   text-align: center;
 }
 
-/* line 28, ../sass/body/_footer.scss */
+/* line 31, ../sass/body/_footer.scss */
 .avatar_name {
   color: #fff;
   margin-bottom: 29px;
 }
 
-/* line 32, ../sass/body/_footer.scss */
+/* line 35, ../sass/body/_footer.scss */
 .avatar_bio {
   width: 230px;
   height: 230px;
@@ -285,26 +284,26 @@ embed {
   overflow: hidden;
   display: inline-block;
 }
-/* line 39, ../sass/body/_footer.scss */
+/* line 42, ../sass/body/_footer.scss */
 .avatar_bio img {
   position: relative;
   display: block;
 }
 
-/* line 45, ../sass/body/_footer.scss */
+/* line 48, ../sass/body/_footer.scss */
 .socials_footer {
   margin: 55px 0 87px;
 }
-/* line 47, ../sass/body/_footer.scss */
+/* line 50, ../sass/body/_footer.scss */
 .socials_footer li {
   display: inline-block;
   margin-left: 14px;
 }
-/* line 51, ../sass/body/_footer.scss */
+/* line 54, ../sass/body/_footer.scss */
 .socials_footer li:first-of-type {
   margin-left: 0;
 }
-/* line 54, ../sass/body/_footer.scss */
+/* line 57, ../sass/body/_footer.scss */
 .socials_footer a {
   font-family: 'icomoon';
   font-size: 1.8rem;
@@ -314,35 +313,35 @@ embed {
   border-radius: 50%;
   padding: 8px;
 }
-/* line 62, ../sass/body/_footer.scss */
+/* line 65, ../sass/body/_footer.scss */
 .socials_footer a:hover {
   background: #65ba99;
 }
-/* line 66, ../sass/body/_footer.scss */
+/* line 69, ../sass/body/_footer.scss */
 .socials_footer a[title="twitter"]:before {
   content: "\e900";
 }
-/* line 69, ../sass/body/_footer.scss */
+/* line 72, ../sass/body/_footer.scss */
 .socials_footer a[title="flickr"]:before {
   content: "\e903";
 }
-/* line 72, ../sass/body/_footer.scss */
+/* line 75, ../sass/body/_footer.scss */
 .socials_footer a[title="facebook"]:before {
   content: "\e902";
 }
-/* line 75, ../sass/body/_footer.scss */
+/* line 78, ../sass/body/_footer.scss */
 .socials_footer a[title="linkedin"]:before {
   content: "\e901";
 }
 
-/* line 80, ../sass/body/_footer.scss */
+/* line 83, ../sass/body/_footer.scss */
 .bio_right_wraper {
   float: right;
   width: 50%;
   padding: 8px 0 0 13px;
 }
 
-/* line 85, ../sass/body/_footer.scss */
+/* line 88, ../sass/body/_footer.scss */
 .title_description_bio {
   font-size: 1.8rem;
   color: #fff;
@@ -350,7 +349,7 @@ embed {
   padding-bottom: 15px;
 }
 
-/* line 91, ../sass/body/_footer.scss */
+/* line 94, ../sass/body/_footer.scss */
 .bio_description {
   font-family: 'OpenSans';
   font-size: 1.4rem;
@@ -360,20 +359,20 @@ embed {
   letter-spacing: 0.023rem;
 }
 
-/* line 100, ../sass/body/_footer.scss */
+/* line 103, ../sass/body/_footer.scss */
 .contact_wraper {
   overflow: hidden;
   position: relative;
   text-align: center;
 }
 
-/* line 106, ../sass/body/_footer.scss */
+/* line 109, ../sass/body/_footer.scss */
 .contact_title {
   margin: 54px 0 57px;
   color: #000;
 }
 
-/* line 110, ../sass/body/_footer.scss */
+/* line 113, ../sass/body/_footer.scss */
 .contact_e-mail {
   font-size: 6rem;
   padding: 17px 126px 13px;
@@ -383,12 +382,12 @@ embed {
   letter-spacing: 0.4rem;
 }
 
-/* line 118, ../sass/body/_footer.scss */
+/* line 121, ../sass/body/_footer.scss */
 .contact_adress {
   font-size: 3rem;
 }
 
-/* line 121, ../sass/body/_footer.scss */
+/* line 124, ../sass/body/_footer.scss */
 .contact_copyright {
   font-family: 'OpenSans-Bold';
   font-size: 1.4rem;
